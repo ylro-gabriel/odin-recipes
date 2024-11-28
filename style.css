@@ -19,3 +19,9 @@ button {
     text-align: center;
 }
 
+.foodname {
+    background-color: blue;
+    color: white;
+    width:fit-content;
+    margin:auto;
+}
