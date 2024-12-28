@@ -3,13 +3,13 @@
 /* elements */
 body {
     
-    background-color:#1a294e;
+    background-color:#ffc09f;
 }
 
 h1 {
     
     font-family:monospace;
-    color: #4141fc;
+   
    
 }
 
@@ -20,12 +20,12 @@ a {
 /* classes */
 .rel {
    
-    font-size: 25px;
+    font-size: 35px;
     padding: 50px;
     text-align: center;
     margin: 0px auto;
-    border: #1a294e 5px solid;
-    background-color: #ccdbfd ;
+    border: #ffc09f 5px solid;
+    background-color: #fffbe3 ;
     font-family:monospace;
     font-weight: bold;
     
@@ -33,15 +33,15 @@ a {
 }
 
 .title-main {
-    background-color: #1a294e;
+    background-color: #ffc09f;
     padding: 12px;
     font-size: 19px;
 }
 
 .title-main h1{
-    color: #ccdbfd;
+    color: #fffadc;
 }
 
 .link-des a{
-    color: #1a294e;
+    color: #faa87b;
 }
