@@ -20,6 +20,9 @@ img {
    background: #fffbe3;
    margin: 0;
 }
+h2 {
+    text-align: center;
+}
 
 /* classes index.html */
 .rel {
@@ -51,11 +54,13 @@ img {
 }
 
 .title-rec{
-    text-align: center;
+    text-align:right;
     border: #fffadc 3px solid;
     margin-bottom: 12px;
     background-color:#fffadc;
     color: #faa87b;
+    font-style: italic;
+    font-size: 30px;
 }
 
 .food-parts {
@@ -67,6 +72,7 @@ img {
 
 .description.food-parts {
     background-color: #ffc09f;
+    font-size: 15px;
 }
 
 .include {
