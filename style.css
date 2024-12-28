@@ -1,23 +1,27 @@
 /*  */
 /*  */
 /* elements */
-body {
-    
+body {  
     background-color:#ffc09f;
+    font-family:monospace;
 }
 
-h1 {
-    
-    font-family:monospace;
-   
-   
-}
+
 
 a {
     text-decoration: none;
 }
 
-/* classes */
+img {
+    width: 300px;
+   height: 400px;
+   padding: 10px;
+   border: 1px solid #fffbe3;
+   background: #fffbe3;
+   margin: 0;
+}
+
+/* classes index.html */
 .rel {
    
     font-size: 35px;
@@ -44,4 +48,27 @@ a {
 
 .link-des a{
     color: #faa87b;
+}
+
+.title-rec{
+    text-align: center;
+    border: #fffadc 3px solid;
+    margin-bottom: 12px;
+    background-color:#fffadc;
+    color: #faa87b;
+}
+
+.food-parts {
+    
+    background: #fffadc;
+    padding: 12px;
+    margin: 12px;
+}
+
+.description.food-parts {
+    
+}
+
+.include {
+    display: inline-flex;
 }
