@@ -1,51 +1,47 @@
+/*  */
+/*  */
+/* elements */
 body {
     
-    background-color: #edf2fb;
+    background-color:#1a294e;
 }
 
 h1 {
-    text-align: center;
+    
     font-family:monospace;
-    color: blue;
-    margin-bottom: 50px;
+    color: #4141fc;
+   
 }
 
-button {
-    background-color: #ccdbfd ;
-    font-family:monospace;
-    font-weight: bold;
-}
 a {
     text-decoration: none;
 }
 
-
+/* classes */
 .rel {
-    font-size: 20px;
-    padding: 15px;
-
-}
-
-button.rel {
-    width: 400px;
-    margin: 10px auto;
-    border: #abc4ff 5px solid;
-    display: block;
-
-
-}
-
-.food {
+   
+    font-size: 25px;
+    padding: 50px;
     text-align: center;
+    margin: 0px auto;
+    border: #1a294e 5px solid;
+    background-color: #ccdbfd ;
+    font-family:monospace;
+    font-weight: bold;
+    
+    
 }
 
-.foodname {
-    background-color: blue;
-    color: white;
-    width:fit-content;
-    margin:auto;
+.title-main {
+    background-color: #1a294e;
+    padding: 12px;
+    font-size: 19px;
 }
-h1.title-main {
-    padding:10px;
-    border-bottom: solid #abc4ff 5px ;
+
+.title-main h1{
+    color: #ccdbfd;
+}
+
+.link-des a{
+    color: #1a294e;
 }
