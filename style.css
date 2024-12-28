@@ -1,18 +1,38 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: orange;
+    
+    background-color: #edf2fb;
 }
 
 h1 {
     text-align: center;
+    font-family:monospace;
+    color: blue;
+    margin-bottom: 50px;
 }
 
 button {
-    background-color: aquamarine;
+    background-color: #ccdbfd ;
+    font-family:monospace;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
 }
 
+
 .rel {
-    font-size: 25px;
+    font-size: 20px;
+    padding: 15px;
+
+}
+
+button.rel {
+    width: 400px;
+    margin: 10px auto;
+    border: #abc4ff 5px solid;
+    display: block;
+
+
 }
 
 .food {
@@ -24,4 +44,8 @@ button {
     color: white;
     width:fit-content;
     margin:auto;
+}
+h1.title-main {
+    padding:10px;
+    border-bottom: solid #abc4ff 5px ;
 }
